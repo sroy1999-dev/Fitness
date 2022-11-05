@@ -274,11 +274,182 @@ header {
 #tip1 {
     width: 100%;
     height: 700px;
-    background: #7A29DC;
+    background: #000000;
 }
 
 #tip1 .tip-container {
     display: flex;
     padding: 100px;
     gap: 100px;
+}
+
+.tip-details {
+    position: relative;
+    padding: 150px 0;
+}
+
+.tip-details h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+.tip-details p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(239, 237, 232, 0.65);
+    padding-bottom: 25px;
+}
+
+.tip-details a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.tip-details i {
+    color: #ffffff;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+#membership {
+    width: 100%;
+    height: 950px;
+    background: #000000;
+}
+
+#membership h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #ffffff;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+#membership .line {
+    width: 65%;
+    height: 0.1%;
+    background: #ffffff;
+    margin: 20px 100px;
+}
+
+.membership-container {
+    padding: 20px 100px;
+    display: flex;
+    gap: 40px;
+}
+
+.membership-container .container-m {
+    width: 35%;
+    height: 640px;
+    background: #232532;
+    justify-content: center;
+}
+
+.container-m h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.container-m p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(239, 237, 232, 0.65);
+    padding: 40px;
+}
+
+.container-m ul {
+    padding: 0 60px;
+}
+
+.container-m ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+.container-m .link {
+    padding: 90px 40px;
+    gap: 10px;
+}
+
+.container-m .link a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.container-m .link i {
+    color: #ffffff;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.container-m button {
+    background: #0070C9;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.membership-container .container-m:nth-child(2) {
+    background: #323443;
+}
+
+#membership .top {
+    position: relative;
+    width: 150px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    left: 69%;
+    top: 4%;
+}
+
+#membership button i {
+    padding-left: 10px;
+}
+
+.popup {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    height: 250px;
+    width: 500px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
 }
