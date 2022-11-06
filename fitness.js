@@ -3,7 +3,6 @@ if(button){
     button.addEventListener('click', () => {
         document.querySelector('.popup').style.display = 'flex';
         document.querySelector('.popup').style.position = 'fixed';
-        document.getElementById('poster').style.display = 'hidden';
     })
 }
 
