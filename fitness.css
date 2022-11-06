@@ -419,7 +419,7 @@ header {
     background: #323443;
 }
 
-#membership .top {
+#membership #top {
     position: relative;
     width: 150px;
     height: 38px;
@@ -430,26 +430,139 @@ header {
     top: 4%;
 }
 
+#membership button {
+    cursor: pointer;
+}
+
 #membership button i {
     padding-left: 10px;
 }
 
 .popup {
-    background: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
-    position: relative;
-    top: 0;
+    position: absolute;
     display: none;
+    top: 0;
     justify-content: center;
     align-items: center;
 }
 
 .popup-content {
-    height: 250px;
     width: 500px;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 5px;
+    height: 700px;
+    background: #323443;
     position: relative;
+    left: -350px;
+    top: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.7);
+}
+
+.popup-content h1 {
+    text-align: center;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 25px;
+    color: #E6533C;
+}
+
+.popup-content i {
+    color: #ffffff;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 90%;
+}
+
+.popup-content .name {
+    display: flex;
+    gap: 10px;
+}
+
+.popup-content .name input {
+    margin: 0 10px;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.popup-content .mobile-number {
+    padding-top: 20px;
+}
+
+.popup-content .mobile-number label {
+    padding-left: 10px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.popup-content .mobile-number input {
+    margin: 10px 10px;
+    width: 96%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-style: normal;
+    font-size: 14px;
+    border: none;
+}
+
+.popup-content .email {
+    padding-top: 20px;
+}
+
+.popup-content .email label {
+    padding-left: 10px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.popup-content .email input {
+    margin: 10px 10px;
+    width: 96%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-style: normal;
+    font-size: 14px;
+    border: none;
+}
+
+.popup-content .password {
+    padding-top: 20px;
+}
+
+.popup-content .password label {
+    padding-left: 10px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.popup-content .password input {
+    margin: 10px 10px;
+    width: 96%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-style: normal;
+    font-size: 14px;
+    border: none;
+}
+
+.popup-content button {
+    width: 150px;
+    height: 50px;
+    background: #E6533C;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 50px 170px;
+    border: none;
 }
